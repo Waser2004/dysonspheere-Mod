@@ -4,9 +4,15 @@
 using namespace sf;
 using namespace std;
 
+#include "Objects.h"
+
+using namespace Items;
+
 int main() 
 {
+	Iron obj;
 
+	cout << obj.index << endl;
 	// create window
 	RenderWindow window(VideoMode(50, 50), "Hey");
 
